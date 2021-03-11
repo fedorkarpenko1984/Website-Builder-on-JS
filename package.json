@@ -1,0 +1,22 @@
+{
+  "name": "web-site-constructor-on-pure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedorkarpenko1984/Website-Builder-on-JS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fedorkarpenko1984/Website-Builder-on-JS/issues"
+  },
+  "homepage": "https://github.com/fedorkarpenko1984/Website-Builder-on-JS#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
