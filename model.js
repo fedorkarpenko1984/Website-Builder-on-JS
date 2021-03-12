@@ -32,7 +32,7 @@ export const model = [
             'font-weight': 'bold'
         }
     }),
-    
+
     new ColumnsBlock([
         'Приложение на чистом JavaScript, без фреймворков',
         'Приложение создано с применением SOLID и ООП',
