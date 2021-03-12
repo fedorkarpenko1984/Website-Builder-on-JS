@@ -25,7 +25,10 @@ export const model = [
         }
     }),
 
-    new TextBlock('Hire we go again. Digital madness. Программист, стремись к чистому коду. Всегда!', {
+    new TextBlock(`Простой 'конструктор сайтов'. Можно добавлять несколько видов элементов, которые
+                   JavaScript будет динамически 'отрисовывать' на данной странице! В полях ввода 
+                   <i style="color: blue">styles</i> пишите 
+                   нужные вам стили CSS. Попробуйте)`, {
         styles: {
             background: 'linear-gradient(to left, #f2994a, #f2c94c)',
             padding: '1rem',
@@ -35,7 +38,7 @@ export const model = [
 
     new ColumnsBlock([
         'Приложение на чистом JavaScript, без фреймворков',
-        'Приложение создано с применением SOLID и ООП',
+        'Программист, стремись к чистому коду. Всегда!',
         'JavaScript - наше все. И даже чуть больше'
     ], {
         styles: {

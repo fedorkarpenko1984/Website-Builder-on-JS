@@ -56,3 +56,14 @@ export class TextBlock extends Block {
         return row(col(`<p>${this.value}</p>`), css(styles))
     }
 }
+
+export class DivBlock extends Block {
+    constructor(value, options) {
+        super(value, options)
+    }
+
+    toHTML() {
+        const styles = this.options.styles || 'margin-left: 0px;width: 300px; height: 100px; border: 2px solid grey'
+        return row(col(`<div>${this.value}</div>`), css(styles))
+    }
+}
